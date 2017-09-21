@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/display"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+        <EditText
+            android:id="@+id/scrn_input"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="fill"
+            android:editable="false"
+            android:background="@color/display_background"
+            android:text="0"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:gravity="end"
+            android:textAlignment="viewEnd"
+            android:maxLines="1"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+        <Button
+            android:id="@+id/btn_in_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="m"
+            android:background="@color/display_background"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+
+        <EditText
+            android:id="@+id/scrn_output"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/scrn_input"
+            android:layout_gravity="fill"
+            android:background="@color/display_background"
+            android:editable="false"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="=0"
+            android:textAlignment="viewEnd"
+            android:textColor="#ffffff"
+            android:textSize="40dp" />
+
+
+
+        <Button
+            android:id="@+id/btn_out_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="m"
+            android:background="@color/display_background"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</LinearLayout>

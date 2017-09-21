@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="topbar_background">#008ba2</color>
+    <color name="display_background">#00bbd3</color>
+    <color name="pannel_background">#62eeff</color>
+    <color name="drawerTitle_background">#d4e157</color>
+    <color name="drawerItemSelected_background">#ffff89</color>
+    <color name="btn_text_color">#454545</color>
+</resources>
